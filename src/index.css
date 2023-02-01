@@ -9,3 +9,50 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.Posts {
+    text-align: center;
+}
+
+.Contacts {
+    text-align: center;
+}
+
+.NavBar {
+    text-align: right;
+    background-color: skyblue;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+    grid-area: NavBar;
+}
+
+.NavBar button {
+    margin: 15px 10px;
+}
+
+.App {
+    display:grid;
+    grid-template-areas: 
+    "NavBar NavBar NavBar"
+    "Profile Profile Contacts"
+    "Posts Posts Contacts";
+}
+
+.Posts {
+    grid-area: Posts;
+    outline: solid 1px black;
+    margin: 10px;
+}
+
+.UserProfile {
+    grid-area: Profile;
+    outline: solid 1px black;
+    margin: 10px;
+}
+
+.Contacts {
+    grid-area: Contacts;
+    outline: solid 1px black;
+    margin: 10px;
+}
