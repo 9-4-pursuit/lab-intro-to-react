@@ -1,11 +1,83 @@
-body {
-  font-family: sans-serif;
-  margin: 0;
+#app{
+  display:grid;
+  grid-template-columns: 2fr 1fr;
 }
+#nav button{
+  margin: 0 5px;
+}
+#nav{
+  position: absolute;
+  /* height:40px; */
+  padding:10px;
+  top:0;
+  left:0;
+  right:0;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+#contactArea{
+  grid-column-start: 2;
+  margin-top:40px;
+}
+#contacts{
+  width:90%;
+  padding:10px;
+  margin-left:auto;
+  margin-right: auto;
+  border:solid black 2px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+}
+#user{
+  margin-top:40px;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+#userProfile{
+  border:solid black 2px;
+  margin-bottom: 10px;
+  display:flex;
+  flex-direction: row;
+  height:200px;
+}
+#userProfile .image{
+  border:solid grey 1px;
+}
+#posts{
+  border:solid black 2px;
+  text-align: center;
+  height:max-content;
+}
+.post{
+  margin: 10px;
+  padding: 5px;
+  border:solid grey 1px;
+}
+.post h2,p{
+  margin:0;
+}
+.contactCard{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: solid grey 1px;
+  margin: 10px 0;
+  
+}
+.contactCard h2,p{
+  margin:0;
 
-html,
-body,
-#root {
-  height: 100%;
-  width: 100%;
+}
+.image{
+  width:100px;
+  height: 100px;
+  margin-right:20px;
+}
+.info{
 }
