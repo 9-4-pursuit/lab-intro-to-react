@@ -1,7 +1,11 @@
+import Post from "./Post.js"
+
 function Posts() {
     return (
         <div className="Post">
-            <p>Posts</p>
+            <Post/>
+            <Post/>
+            <Post/>
         </div>
     )
 }

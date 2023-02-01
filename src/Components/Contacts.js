@@ -1,11 +1,12 @@
+import ContactUserCard from "./ContactUserCard";
 
-function Contacts(props) {
+function Contacts() {
     return (
-        <div>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
+        <div className="Contacts">
+            <ContactUserCard/>
+            <ContactUserCard/>
+            <ContactUserCard/>
+            <ContactUserCard/>
         </div>
     )
 }

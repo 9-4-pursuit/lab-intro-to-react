@@ -1,16 +1,16 @@
 import React from "react";
 import "./index.css";
-import "./Components/NavBar";
 import NavBar from "./Components/NavBar";
-import UserProfile from ".Components/UserProfile";
-import 
+import UserProfile from "./Components/UserProfile";
+import Posts from "./Components/Posts";
+import Contacts from "./Components/Contacts"
 
 function App() {
   return (<div className="App">
     <NavBar />
-    {/* <UserProfile />
+    <UserProfile />
     <Posts />
-    <Contacts /> */}
+    <Contacts />
   </div>)
 };
 

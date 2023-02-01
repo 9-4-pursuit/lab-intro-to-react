@@ -1,8 +1,7 @@
-
 function Post() {
     return (
-        <div className="Post">
-            <p>Post</p>
+        <div>
+            Post
         </div>
     )
 }
