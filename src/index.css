@@ -1,6 +1,9 @@
 body {
   font-family: sans-serif;
   margin: 0;
+  display: grid;
+  grid-template-columns: 4fr;
+  grid-template-rows: 3fr;
 }
 
 html,
@@ -8,4 +11,70 @@ body,
 #root {
   height: 100%;
   width: 100%;
+}
+
+.nav {
+  display: grid;
+  grid-column-end: 4 span;
+  grid-row-start: 1;
+  height: 50px;
+  border: solid black 3px;
+  background-color: rgb(172, 206, 227);
+}
+button {
+  float: right;
+  margin: 5px;
+  margin-top: 13px;
+}
+.profile {
+  display: grid;
+  grid-row-start: 2;
+  grid-column-end: 2;
+  grid-column-start: 1;
+  border: solid black 3px;
+  margin: 20px;
+  height: fit-content;
+  width: 890px;
+  padding: 10px 0 105px 10px;
+}
+.posts {
+  display: grid;
+  grid-row-start: 3;
+  grid-column-end: 2;
+  grid-column-start: 1;
+  grid-template-columns: 3fr;
+  border: solid black 3px;
+  margin: 20px;
+  text-align: center;
+  height: max-content;
+  width: 900px;
+}
+.contacts {
+  display: grid;
+  grid-column-start: 3;
+  grid-row-end: 4 span;
+  grid-template-columns: 2fr;
+  border: solid black 3px;
+  margin: 10px;
+  width: 500px;
+  height: fit-content;
+  text-align: center;
+}
+.users {
+  border: solid black 3px;
+  margin: 20px;
+  padding: 10px;
+}
+h3 h4 p {
+  float: right;
+}
+.post {
+  border: solid black 3px;
+  margin: 20px;
+  padding: 10px;
+}
+img {
+  float: left;
+  margin-right: 10px;
+  border: solid black 3px;
 }
