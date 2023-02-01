@@ -1,7 +1,8 @@
 import React from "react";
-import NavBar from "./Components/NavBar"
-import UserProfile from "./Components/UserProfile"
-import Posts from "./Components/Posts"
+import NavBar from "./Components/NavBar";
+import UserProfile from "./Components/UserProfile";
+import Posts from "./Components/Posts";
+import Contacts from "./Components/Contacts";
 
 import "./index.css";
 
@@ -11,7 +12,7 @@ function App () {
       <NavBar />
       <UserProfile />
       <Posts />
-      {/* <Contacts /> */}
+      <Contacts />
     </div>
   )
   // <p>Hello, world!</p>;
