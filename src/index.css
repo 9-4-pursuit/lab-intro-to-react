@@ -9,3 +9,53 @@ body,
   height: 100%;
   width: 100%;
 }
+
+/* body {
+  display: grid;
+  grid-template:
+    'nav nav'
+    'user contact'
+    'posts contact';
+} */
+
+.nav {
+  background-color: lightblue;
+  grid-area: 'nav';
+}
+
+.user,
+.posts,
+.post,
+.contacts,
+.user-card {
+  border-radius: 1px;
+  border-color: black;
+  border-style: solid;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav {
+  padding: 10px;
+  text-align: right;
+}
+.user {
+  grid-ea: 'user';
+}
+
+.posts {
+  grid-area: 'posts';
+}
+
+.post {
+  margin: 5px;
+}
+
+.contacts {
+  grid-area: 'contact';
+}
+
+.user-card {
+  margin: 5px;
+}
