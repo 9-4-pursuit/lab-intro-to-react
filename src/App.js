@@ -1,17 +1,19 @@
 import React from "react";
 import Contacts from "./Components/Contacts";
 import NavBar from "./Components/NavBar";
+import Posts from "./Components/Posts";
+import UserProfile from "./Components/UserProfile";
 import "./index.css";
 
-
-function App () {
+function App() {
   return (
     <div className="App">
-
-      <NavBar/>
-      <Contacts/>
+      <NavBar />
+      <UserProfile/>
+      <Contacts />
+      <Posts />
     </div>
-  )
-};
+  );
+}
 
 export default App;
