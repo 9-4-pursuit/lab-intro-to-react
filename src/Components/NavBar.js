@@ -2,13 +2,11 @@
 function NavBar(props){
 
     return(
-        <div>
-            <p>{props.name}</p>
-            <p id="title">{props.title}</p>
-            <p id="motto">{props.motto}</p>
-            <p id="third">{props.third}</p>
-        </div>
-
+        <nav>         
+            <p id="whatis">{props.whatis}</p>
+            <p id="create">{props.create}</p>
+            <p id="signin">{props.signin}</p>
+        </nav>
     )
 }
 

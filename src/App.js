@@ -1,19 +1,26 @@
 import React from "react";
-import NavBar from './components/NavBar';
-import Contacts from './components/Contacts';
-import ContactUserCard from './components/ContactUserCard';
+import NavBar from './Components/NavBar';
+import Contacts from './Components/Contacts';
+import Posts from './Components/Posts';
 
-import Post from './components/Post';
-import Posts from './components/Posts';
-import UserProfile from './components/UserProfile';
+
+import UserProfile from './Components/UserProfile';
 import "./index.css";
 
 function App () {
   return (
-    <div className="App">
+    <div className="App1"> 
+      <NavBar whatis="This is the first field"/>
+      <NavBar create="Creation" />
+      <NavBar signin="Sign Up" />
+      
+
         <UserProfile name="Jawarhalal Anon" />
         <UserProfile motto="As you were." />
         <UserProfile third="Lorem Ipsum" />
+
+      <Contacts name="Guy I Know" />
+      <Posts tag="unknown" />
 
 
 
