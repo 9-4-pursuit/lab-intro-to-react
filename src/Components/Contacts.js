@@ -1,17 +1,15 @@
+import ContactUserCard from "./ContactUserCard"
 
-import ContactUserCard from "./ContactUserCard";
-
-function Contacts() {
-    return (
-        <div className="Contact">
-            <h2>Contacts</h2>
-            <ContactUserCard />
-            <ContactUserCard />
-            <ContactUserCard />
-            <ContactUserCard />
-        </div>
-    )
-
-} 
-
-export default Contacts;
+ const Contacts = () => {
+     return (
+         <div className="Contacts">
+             <h2>Contacts</h2>
+             <section className="user-card">
+                 <ContactUserCard />
+                 <ContactUserCard />
+                 <ContactUserCard />
+                 <ContactUserCard />
+             </section>
+         </div>
+     )
+ }
