@@ -1,17 +1,17 @@
 import React from "react";
-import "./index.css";
-import NavBar from "./Components/NavBar";
-import UserProfile from "./Components/UserProfile";
-import Posts from "./Components/Posts";
 import Contacts from "./Components/Contacts";
+import NavBar from "./Components/NavBar";
+import Posts from "./Components/Posts";
+import UserProfile from "./Components/UserProfile";
+import "./index.css";
 
 function App () {
   return (
-    <div>
+    <div className="App">
     <NavBar /> 
     <UserProfile />
-    <Posts/>
-    <Contacts/>
+    <Contacts />
+    <Posts />
     </div>
     )
 };
