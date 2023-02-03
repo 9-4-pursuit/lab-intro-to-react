@@ -10,8 +10,8 @@ import React from "react";
    return (
      <div className="App">
        <NavBar />
-       <UserProfile />
-       <Posts />
+       <UserProfile name="Jordan Walker" creator="React Creator" text="Hello World" image="./profile.png" />
+       <Posts title1="Write description here" title2="Write description here" title3="Write description here"/>
        <Contacts />
      </div>
    )

@@ -13,3 +13,5 @@ import ContactUserCard from "./ContactUserCard"
          </div>
      )
  }
+
+ export default Contacts;

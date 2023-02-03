@@ -1,6 +1,6 @@
 import Post from "./Post";
 
-function Posts() {
+function Posts(props) {
     return (
         <div className="Posts">
            <Post />

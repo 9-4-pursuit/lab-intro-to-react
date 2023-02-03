@@ -1,12 +1,12 @@
 
 
-function UserProfile() {
+function UserProfile(props) {
     return (
         <div className="UserProfile">
-            <h2>Jordan Walker</h2>
-            <h3>React Creator</h3>
-            <p>Lorem ipsum</p>
-            <img src="./profile.png" alt="profile"></img>
+            <h2>{props.name}</h2>
+            <h3>{props.creator}</h3>
+            <p>{props.text}</p>
+            <img src={props.image} alt="profile" />
         </div>
     )
 
