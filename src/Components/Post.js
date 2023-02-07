@@ -1,8 +1,8 @@
 
 function Post() {
     return (
-        <div className="eachPost">
-            <h3>Title</h3>
+        <div className="post">
+            <h3>Post Title</h3>
             <p>Hello!</p>
         </div>
     )

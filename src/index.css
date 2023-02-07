@@ -1,28 +1,28 @@
 body {
   font-family: sans-serif;
   margin: 0;
-}
-
-html,
-body,
-#root {
   height: 100%;
   width: 100%;
-}
-
-/* div{
-  border: 1px solid;
-} */
-
-.App{
   display: grid;
 }
 
-.divNavBar{
+.user,
+.posts,
+.post,
+.contacts,
+.card {
+  border: 1px solid black;
+  margin: 20px;
+  text-align: center;
+}
+
+.nav {
   background-color: lightblue;
-  border: 10px;
+  grid-area: 'nav';
+  padding: 10px;
+  text-align: right;
 }
 
-.divUserProfile{
-  display: grid;
+.post {
+  margin: 20px;
 }

@@ -1,10 +1,12 @@
+import image from "../profile.png";
 
 function UserProfile() {
     return (
-        <div className="divUserProfile">
+        <div className="user">
+            <img src={image}></img>
             <h3>Jinseok J</h3>
             <h5>React Creator</h5>
-            <p>testing...</p>
+            <p>Profile testing...</p>
         </div>
     )
 }
