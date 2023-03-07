@@ -1,5 +1,5 @@
 
-
+// the user profile, is the person's name, title, and space for their bio
 
 
 function UserProfile() {

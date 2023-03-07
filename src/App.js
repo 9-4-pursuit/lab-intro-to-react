@@ -13,9 +13,10 @@ import Contacts from "./Components/Contacts";
 import ContactUserCard from "./Components/ContactUserCard";
 
 function App () {
-  return <p>Hello, world!</p>;
+  
   return (
     <div>
+      <p>Hello, world!</p>
       <NavBar />
       <UserProfile />
       <Posts />

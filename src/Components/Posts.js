@@ -1,5 +1,6 @@
 
-
+// each component is an element on the webpage, this 
+//this list on the Post SECTION
 
 
 function Posts() {

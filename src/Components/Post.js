@@ -1,5 +1,5 @@
 
-
+// This section of the webpage is each INDIVIDUAL post including title and paragraph 
 
 function Post() {
     return (
