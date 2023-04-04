@@ -1,6 +1,6 @@
 function UserProfile() {
     return (
-        <div>
+        <div className="user-profile">
             <img src="./profile.png"></img>
 
                 <h2>Jordan Walke</h2>
